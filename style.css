@@ -1,0 +1,182 @@
+.Menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #243394;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+  
+  #Bouton {
+    float: left;
+  }
+  
+  #Bouton a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  
+  #Bouton a:hover:not(.active) {
+    background-color: #0d044b54;
+  }
+  
+  .active {
+    background-color: rgb(5, 111, 173);
+  }
+  
+  
+  /* Page */
+  body {
+      margin: 0;
+      background-image:url('HD Healthcare Wallpapers for Laptops & PCs.jpeg');
+      font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+	  align-items: center;
+  }
+  
+  
+  
+  /* Grande boite pour tableaux */
+  #grande_boite {
+      width: 1400px;
+      margin: 0px auto;
+      margin-top: 5%;
+      padding: 30px;
+      border: 1px solid #f1f1f1;
+      background: #fff;
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2), 0px 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  #grande_boite h1{
+      margin: 10px auto;
+      padding-bottom: 10px;
+      text-align: center;
+  }
+  
+  
+  /* Formulaire */
+  form {
+      border-collapse: collapse;
+	  margin: auto;
+      width: 700px;
+	  text-align: center;
+  }
+  
+  input[type=text], input[type=password], input[type=number], input[type=date], input[type=search], input[type=time], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+      background-color: #243394;
+      color: white;
+      padding: 14px 40px;
+      margin: 12px 0px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+  }
+  
+  input[type=submit]:hover {
+      background-color: white;
+      color: #243394;
+      border: 2px solid #243394;
+      padding: 12px 38px;
+}
+
+h1{
+	color: primary-color;
+}
+
+p {
+	color: dark-gray;
+	overflow-wrap: braek-word;
+	line-height: 1.5;
+}
+
+section .left,
+section .right{
+	padding: 2rem;
+	flex: 1;
+}
+
+button{
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: blue;
+}
+
+.filled-btn {
+	background-color: secondary-color;
+	font-size: 1.25rem;
+	color: #fff;
+	letter-spacing: 2px;
+	border-radius: 10px;
+	
+}
+
+.filled-btn:hover{
+	background-color: primary-color;
+	
+}
+
+.hero {
+	min-height: 670px;
+	padding: 0;
+	display: flex;
+
+}
+
+.hero .right{
+	text-align: right;
+	background-position: 100% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.hero video {
+	height: 70%;
+	object-fit: contain;
+	
+}
+
+.hero .left{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	
+}
+
+.hero h1{
+	font-size: 6rem;
+	line-height: 2rem;
+}
+
+.hero p{
+	margin-top: 1.5;
+	max-width: 500px;
+	min-width: 300px;
+	font-weight: bold;
+}
+
+.hero button{
+	margin-top: 4rem;
+	padding: 10px, 10px;
+	
+}
+
